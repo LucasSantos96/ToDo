@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: -1px 5px 23px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+}
+.text{
+    position: relative;
+    right: 80px;
+    margin: 24px 0px;
+    
+
+}
+.text h1{
+    color: #1f1f1f;
+    font-size: 36px;
+}
+.text p{
+    color: #4f4e4e;
+    font-size: 14px;
+    font-weight: 400;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+form input{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: -1px 5px 23px 1px rgba(0, 0, 0, 0.211);
+    width: 70%;
+    outline: none;
+
+}
+form button{
+    border: none;
+    padding: 10px;
+    color: #303030;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: -1px 5px 23px 1px #3e63d3a4;
+    background-color: #3e63d3;
+    color: #fff;
+    font-size: 12px;
+
+
+}
+
+#lista{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+#lista li{
+   margin-top: 12px;
+   text-align: center;
+   list-style: none;
+   border: 1px solid #4240405c;
+   padding: 8px 20px;
+   border-radius: 12px;
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-weight: 600;
+   font-size: 12px;
+   word-break: break-all;
+   gap: 8px;
+   
+   
+   
+}
+#lista img{
+    position: relative;
+    width: 20px;
+    
+    
+
+}
+.btnApagar{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+   
+    
+}
+.btnCheck {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+}
+.checkActive{
+    background-color: #62ea9d84;
+    text-decoration: line-through;
+}

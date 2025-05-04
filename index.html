@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="text">
+            <h1>ToDo List</h1>
+            <p>Organize suas tarefas.</p>
+        </div>
+        <form>
+            <input type="text" id="item" placeholder="Digite uma tarefa" required>
+            <button onclick="adicionarItem()" type="button">Adicionar</button>
+        </form>
+        <ul id="lista"></ul>
+    </main>
+
+</body>
+
+</html>
